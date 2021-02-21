@@ -1,0 +1,27 @@
+daniel.brown1
+311340723
+Daniel Brown
+
+I discussed the exercise with: Michael Berelejis, Yotam Amrani, Tomer Bashiri.
+
+======================================
+=  README for ex(10): decision trees =
+======================================
+
+
+==================
+=  Description:  =
+==================
+in this ex we were asked to build a few methods for pre-build classes,
+functions that built and analyze decision trees.
+
+==================
+=  Resubmission: =
+==================
+changes I've made for the resubmission:
+- In the original file, in the 'find illness' function that sets the leave's
+    data, I accidently returned a Node type element instead of a string type
+    (this was the major bug).
+- I added edge cases in which the symptoms list is empty
+- Added a reference to the case in which there is no one most common illness
+    in the find illness function. in that case an illness is randomized.
